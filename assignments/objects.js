@@ -37,7 +37,10 @@ const internKennan= {
   "id": 2,
   "name": "Kennan",
   "email": "kdiben1@tinypic.com",
-  "gender": "M"
+  "gender": "M",
+  "speak": function(parem) {
+    return parem
+  },
 }
 
 // 3,kmummery2@wikimedia.org,Keven,M
@@ -63,10 +66,11 @@ const internAntoinetta = {
   "id": 5,
   "name": "Antoinetta",
   "email": "adaine5@samsung.com",
-  "gender": "F"
+  "gender": "F",
+  "multiplyNums": function(num1, num2) {
+    return num1 * num2
+  }
 }
-
-
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:

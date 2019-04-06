@@ -9,7 +9,9 @@
 // 4,gmartinson3@illinois.edu,Gannie,M
 // 5,adaine5@samsung.com,Antonietta,F
 
+
 // Example format of an intern object: 1,examples@you.edu,Example,F
+
 const example = {
   "id": 0,
   "name": "Example",
@@ -17,21 +19,76 @@ const example = {
   "gender": "F"
 }
 
+
 // Write your intern objects here:
 
+
+const internMitzi= {
+  "id": 1,
+  "name": "Mitzi",
+  "email": "mmelloy@psu.edu",
+  "gender": "F"
+}
+
+
+
+// 2,kdiben1@tinypic.com,Kennan,M
+const internKennan= {
+  "id": 2,
+  "name": "Kennan",
+  "email": "kdiben1@tinypic.com",
+  "gender": "M",
+  "speak": function(parem) {
+    return parem
+  },
+}
+
+// 3,kmummery2@wikimedia.org,Keven,M
+const internKeven= {
+  "id": 3,
+  "name": "Keven",
+  "email": "kmummery2@wikimedia.org",
+  "gender": "M"
+}
+
+
+// 4,gmartinson3@illinois.edu,Gannie,M
+const internGannie= {
+  "id": 4,
+  "name": "Gannie",
+  "email": "gmartinson@illinois.edu",
+  "gender": "M"
+}
+
+
+// 5,adaine5@samsung.com,Antonietta,F
+const internAntoinetta = {
+  "id": 5,
+  "name": "Antoinetta",
+  "email": "adaine5@samsung.com",
+  "gender": "F",
+  "multiplyNums": function(num1, num2) {
+    return num1 * num2
+  }
+}
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
+console.log(internMitzi.name)
 
 // Kennan's ID
+console.log(internKennan.id)
 
 // Keven's email
+console.log(internKeven.email)
 
 // Gannie's name
+console.log(internGannie.name)
 
 // Antonietta's Gender
+console.log(internAntoinetta.gender)
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
